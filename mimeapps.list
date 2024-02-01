@@ -1,0 +1,13 @@
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-BYEUH2.desktop
+message/rfc822=userapp-Thunderbird-BYEUH2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-BYEUH2.desktop
+image/png=nsxiv.desktop
+image/jpeg=nsxiv.desktop
+x-scheme-handler/mailspring=Mailspring.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-BYEUH2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-BYEUH2.desktop;
+image/png=nsxiv.desktop;
+image/jpeg=nsxiv.desktop;
