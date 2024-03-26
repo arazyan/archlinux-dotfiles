@@ -1,1 +1,0 @@
-[{"action":{"requestHeaders":[{"header":"Referer","operation":"set","value":"https://steamcommunity.com/tradeoffer/new/"}],"type":"modifyHeaders"},"condition":{"resourceTypes":["xmlhttprequest"],"urlFilter":"https://steamcommunity.com/tradeoffer/new/send"},"id":2,"priority":1}]
