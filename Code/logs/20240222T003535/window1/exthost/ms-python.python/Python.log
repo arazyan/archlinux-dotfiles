@@ -1,0 +1,58 @@
+2024-02-22 00:36:01.770 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-22 00:36:01.770 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-22 00:36:01.770 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-22 00:36:01.770 [info] Experiment 'pythonTestAdapter' is active
+2024-02-22 00:36:01.794 [info] Default formatter is set to null for workspace /home/sad/git/parser
+2024-02-22 00:36:01.805 [info] VS Code was launched from an activated environment: 'venv', selecting it as the interpreter for workspace.
+2024-02-22 00:36:01.806 [info] Test server listening.
+2024-02-22 00:36:01.814 [info] > conda info --json
+2024-02-22 00:36:02.100 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-22 00:36:02.100 [info] Found: /bin/python --> /bin/python3.11
+2024-02-22 00:36:02.101 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-22 00:36:02.101 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-22 00:36:02.101 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-22 00:36:02.101 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-22 00:36:02.101 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-22 00:36:02.101 [info] Found: /bin/python3 --> /bin/python3.11
+2024-02-22 00:36:02.102 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-22 00:36:02.102 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-22 00:36:02.102 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-22 00:36:02.102 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-02-22 00:36:02.132 [info] > ./venv/bin/python -I ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-22 00:36:02.138 [info] Found: /sbin/python --> /sbin/python3.11
+2024-02-22 00:36:02.138 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-02-22 00:36:02.138 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-02-22 00:36:02.147 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-02-22 00:36:02.148 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-02-22 00:36:02.148 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-02-22 00:36:02.174 [info] Python interpreter path: ./venv/bin/python
+2024-02-22 00:36:02.181 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-02-22 00:36:02.181 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-02-22 00:36:02.181 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-02-22 00:36:02.181 [info] Found: /home/sad/git/parser/venv/bin/python --> /usr/bin/python3.11
+2024-02-22 00:36:02.182 [info] Found: /home/sad/git/parser/venv/bin/python3 --> /usr/bin/python3.11
+2024-02-22 00:36:02.182 [info] Found: /home/sad/git/parser/venv/bin/python3.11 --> /usr/bin/python3.11
+2024-02-22 00:36:02.194 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-22 00:36:02.206 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-22 00:36:02.224 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-22 00:36:02.237 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-22 00:36:02.300 [info] > . ./venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-22 00:36:02.300 [info] shell: zsh
+2024-02-22 00:36:02.301 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-22 00:36:02.329 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-22 00:36:02.329 [info] shell: zsh
+2024-02-22 00:36:02.349 [info] Send text to terminal: /bin/python /home/sad/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /home/sad/.vscode/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/zsh/envVars.txt
+2024-02-22 00:36:03.509 [info] Starting Pylance language server.
+2024-02-22 00:36:35.665 [info] Discover tests for workspace name: undefined - uri: /home/sad/.config/Code/User/settings.json
+2024-02-22 00:36:42.300 [info] Discover tests for workspace name: undefined - uri: /home/sad/.config/Code/User/settings.json
+2024-02-22 00:36:52.363 [info] Discover tests for workspace name: undefined - uri: /home/sad/.config/Code/User/settings.json
+2024-02-22 00:37:16.368 [info] Discover tests for workspace name: parser - uri: /home/sad/git/parser/main.py
+2024-02-22 00:37:20.629 [info] Discover tests for workspace name: parser - uri: /home/sad/git/parser/main.py
+2024-02-22 00:37:31.180 [info] CreateEnv Trigger - Skipping for /home/sad/git/parser/main.py
+2024-02-22 00:37:31.267 [info] Send text to terminal: /home/sad/git/parser/venv/bin/python /home/sad/git/parser/main.py
+2024-02-22 00:37:41.220 [info] Discover tests for workspace name: parser - uri: /home/sad/git/parser/main.py
+2024-02-22 00:37:43.187 [info] Send text to terminal: /home/sad/git/parser/venv/bin/python /home/sad/git/parser/main.py
+2024-02-22 00:37:50.137 [info] Discover tests for workspace name: parser - uri: /home/sad/git/parser/main.py
+2024-02-22 00:37:53.238 [info] Discover tests for workspace name: parser - uri: /home/sad/git/parser/main.py
+2024-02-22 00:37:53.927 [info] Send text to terminal: /home/sad/git/parser/venv/bin/python /home/sad/git/parser/main.py
+2024-02-22 00:37:58.774 [info] Discover tests for workspace name: parser - uri: /home/sad/git/parser/main.py

@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": "img/favicon_csgo.png",
+      "default_popup": "popup.html",
+      "default_title": "MarketApp P2P"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "Creates P2P exchanges between steam users",
+   "externally_connectable": {
+      "matches": [ "https://market.csgo.com/*", "https://market-new.csgo.com/*", "https://csgobuy.cn/*", "https://market-old.csgo.com/*", "https://market.dota2.net/*", "https://rust.tm/", "https://csgo.tm/*" ]
+   },
+   "host_permissions": [ "https://steamcommunity.com/*" ],
+   "icons": {
+      "128": "img/favicon_csgo.png",
+      "16": "img/favicon_csgo_16.png",
+      "48": "img/favicon_csgo_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkkTdttVzXfizwFClexCGOI5h6kI1xQIAR0OM3Yl/nFFw0NDBbjbDuFIfsFg2gB7Kdr1xV8KfPQj5mKl1pvk6Wpr65A9Aozc8iACpo2Nuo2mzhE7gKJAlWtdNJPOgJFDqS3+cR6wTcjNlKeznwYnFl1tn5YgY07vssBd834vkBmErAcZ0V8NnpJQBKK1tHSmyQcAY574TBLDExHMWgmGy8mXiLDXcxXdGHus8XO9RWXqdl9AOpvvBXuYgYFjolGb98PrNqGLDynw00nkGke8ONvzEeJmHSqkXinUaMNYaoeRbrSJGqUYTKcXcW2cR9T23YBVOIwS9jhAu7BXTQvW5SwIDAQAB",
+   "manifest_version": 3,
+   "name": "MarketApp P2P",
+   "permissions": [ "notifications", "storage", "background", "webRequest", "offscreen", "cookies", "tabs", "activeTab", "declarativeNetRequest", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

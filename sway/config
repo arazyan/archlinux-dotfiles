@@ -17,7 +17,7 @@ font pango:Iosevka Nerd Font 14
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Home row direction keys, like vim
-set $left h
+set $left h 
 set $down j
 set $up k
 set $right l
@@ -33,8 +33,7 @@ set $menu rofi -show drun -icon-theme "Papirus-Dark"
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # exec /home/sad/Projektek/XKCD/main.sh
-#output * bg /home/sad/Pictures/Wallpapers/wallp.jpg fill
-output * bg /home/sad/Downloads/wallp6.png fill
+output * bg /home/sad/Pictures/Wallpapers/wallp6.png fill
 
 
 # notification daemon
@@ -44,9 +43,11 @@ output * bg /home/sad/Downloads/wallp6.png fill
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
-output HDMI-A-1 mode 2560x1440@143.999Hz
+output DP-9 mode 2560x1440@143.999Hz
+# output DP-7 position 0,0 transform 90
+output DP-7 position 0,0
 
-
+# workspace 0 output DP-2
 #
 # Example configuration:
 #
@@ -107,8 +108,12 @@ input * {
     # Start your launcher
     bindsym $mod+d exec $menu
 
-    # Toggle laptop display (turn off)
+    # Toggle displays
     bindsym $mod+m Output eDP-1 toggle
+    # bindsym $mod+Shift+m output "HDMI-A-2" enable ; output "eDP-1" disable
+    # bindsym $mod+Shift+A output "DP-8" enable
+    bindsym $mod+Shift+A output "DP-7" disable
+    bindsym $mod+Shift+A+S output "DP-7" enable
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -288,11 +293,11 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
-bindsym XF86NotificationCenter exec playerctl play-pause
-bindsym XF86PickupPhone exec playerctl next
-bindsym XF86HangupPhone exec playerctl previous
-bindsym XF86Favorites exec playerctl stop
-bindsym XF86Search exec wofi --show drun -G -I -m -d
+# bindsym XF86NotificationCenter exec 
+# bindsym XF86PickupPhone exec playerctl next
+# bindsym XF86HangupPhone exec playerctl previous
+# bindsym XF86Favorites exec playerctl play-pause
+# bindsym XF86Search exec wofi --show drun -G -I -m -d
 
 # yay -S light && sudo chmod +s /usr/bin/light
 bindsym XF86MonBrightnessUp exec light -A 10
@@ -305,7 +310,6 @@ bindsym Print exec /home/sad/.config/sway/screenshot.sh
 
 # Select an area of shot (don't save, copy to clipboard)
 bindsym Shift+Print exec /home/sad/.config/sway/screenshot_slurp.sh
-bindsym Shift+Alt+Return exec /home/sad/.config/sway/screenshot_slurp.sh
 
 # Run Waybar on start
 #exec waybar
@@ -325,7 +329,7 @@ exec dunst
 
 # Sway fading script
 # пока не добавишь фаерфокс в исключения, не врубай
-exec python3 /home/sad/.config/sway/swayfader.py
+#exec python3 /home/sad/.config/sway/swayfader.py
 
 # Defining colors         border     bg         text       indicator  child_border
 client.focused            #c294dd    #1e222a    #abb2bf    #975db0    #c294dd

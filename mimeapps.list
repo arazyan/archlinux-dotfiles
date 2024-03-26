@@ -5,9 +5,16 @@ x-scheme-handler/mid=userapp-Thunderbird-BYEUH2.desktop
 image/png=nsxiv.desktop
 image/jpeg=nsxiv.desktop
 x-scheme-handler/mailspring=Mailspring.desktop
+application/zip=userapp-unzip-JDS2H2.desktop
+application/octet-stream=vlc.desktop
 
 [Added Associations]
 x-scheme-handler/mailto=userapp-Thunderbird-BYEUH2.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-BYEUH2.desktop;
 image/png=nsxiv.desktop;
 image/jpeg=nsxiv.desktop;
+application/zip=userapp-unzip-JDS2H2.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=org.pwmt.zathura-cb.desktop;
+application/octet-stream=vlc.desktop;
+application/pdf=firefox.desktop;
+audio/mpeg=vlc.desktop;

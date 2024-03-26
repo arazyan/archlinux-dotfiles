@@ -1,0 +1,56 @@
+{
+   "Authorized": {
+      "message": "Подключен"
+   },
+   "Closed": {
+      "message": "Отключен"
+   },
+   "Opened": {
+      "message": "Подключение"
+   },
+   "auth_failed": {
+      "message": "Ошибка входа"
+   },
+   "auto_accept_incoming_trade_offers": {
+      "message": "Автоматически принимать входящие торговые предложения"
+   },
+   "error": {
+      "message": "Ошибка"
+   },
+   "extension": {
+      "message": "Расширение"
+   },
+   "grant_permissions": {
+      "message": "Предоставить разрешения"
+   },
+   "not_enough_permissions_for_work_message": {
+      "message": "Необходимо предоставить дополнительные разрешения"
+   },
+   "off": {
+      "message": "Оффлайн"
+   },
+   "ok": {
+      "message": "Онлайн"
+   },
+   "open_https_steamcommunity_com_and_authorize_into_your_own_account": {
+      "message": "Откройте https://steamcommunity.com и авторизуйтесь под своей учетной записью."
+   },
+   "open_steamcommunity_com": {
+      "message": "Открыть steamcommunity.com"
+   },
+   "steam_authorization_is_missing": {
+      "message": "Авторизация в Steam отсутствует."
+   },
+   "steam_authorization_is_not_valid": {
+      "message": "Авторизация Steam недействительна."
+   },
+   "steam_id_copied_to_clipboard": {
+      "message": "Steam ID скопирован в буфер обмена"
+   },
+   "web_api_key": {
+      "message": "Ключ Web API"
+   },
+   "you_are_not_authorized_in_steam": {
+      "message": "Вы не авторизованы в Steam"
+   }
+}

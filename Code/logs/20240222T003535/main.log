@@ -1,0 +1,10 @@
+2024-02-22 00:35:35.223 [info] update#setState idle
+2024-02-22 00:36:01.212 [error] Blocked vscode-webview request vscode-webview://04jf96v162b5cl6iuvr56ivue7092kpqllbd3jpn1gp6ga5q9vbm/index.html?id=7ada3b1d-df63-48d0-bead-4be1c4fc31f6&origin=7ada3b1d-df63-48d0-bead-4be1c4fc31f6&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+2024-02-22 00:36:05.206 [info] update#setState checking for updates
+2024-02-22 00:36:05.270 [info] update#setState idle
+2024-02-22 00:37:03.925 [error] Blocked vscode-webview request vscode-webview://1tkc6m2betphrrv4r87ft88mjju94qh82u3pc5c8fdpb7q7baqm9/index.html?id=2f838944-6bb6-46c7-8b89-8cff46e78e7c&origin=2f838944-6bb6-46c7-8b89-8cff46e78e7c&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+2024-02-22 00:37:03.946 [error] CodeWindow: failed to load (reason: ERR_BLOCKED_BY_CLIENT, code: -20)
+2024-02-22 00:37:05.814 [error] Blocked vscode-webview request vscode-webview://1tkc6m2betphrrv4r87ft88mjju94qh82u3pc5c8fdpb7q7baqm9/index.html?id=2f838944-6bb6-46c7-8b89-8cff46e78e7c&origin=2f838944-6bb6-46c7-8b89-8cff46e78e7c&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+2024-02-22 00:37:05.839 [error] CodeWindow: failed to load (reason: ERR_BLOCKED_BY_CLIENT, code: -20)
+2024-02-22 00:38:00.818 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 38411]: crashed with code 15 and reason 'killed'
+2024-02-22 00:38:00.824 [info] Extension host with pid 38421 exited with code: 0, signal: unknown.
