@@ -13,7 +13,11 @@ smart_borders on
 font pango:Iosevka Nerd Font 14
 
 ### Variables
-#
+
+
+# Display variables
+# set internal_screen
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Home row direction keys, like vim
@@ -33,7 +37,16 @@ set $menu rofi -show drun -icon-theme "Papirus-Dark"
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # exec /home/sad/Projektek/XKCD/main.sh
-output * bg /home/sad/Pictures/Wallpapers/wallp6.png fill
+# output * bg /home/sad/Pictures/Wallpapers/wallp6.png fill
+
+# Set background for laptop screen
+output eDP-1 {
+    background /home/sad/Downloads/wallhaven-dpqed3_1920x1080.png fill
+  }
+
+# Live wallpaper
+bindsym $mod+Home exec killall mpvpaper
+bindsym $mod+End exec /home/sad/.config/sway/wallpaper.sh
 
 
 # notification daemon
@@ -43,9 +56,9 @@ output * bg /home/sad/Pictures/Wallpapers/wallp6.png fill
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
-output DP-9 mode 2560x1440@143.999Hz
+output DP-11 mode 2560x1440@143.999Hz
 # output DP-7 position 0,0 transform 90
-output DP-7 position 0,0
+output DP-8 position 0,0
 
 # workspace 0 output DP-2
 #
@@ -78,7 +91,8 @@ input "1267:12693:ELAN0678:00_04F3:3195_Touchpad" {
 	natural_scroll enabled
 	# disable while typing
 	dwt enabled
-	accel_profile "flat"
+	# accel_profile "flat"
+	# pointer_accel 0.8
 	pointer_accel 0.8
 }
 
@@ -112,8 +126,8 @@ input * {
     bindsym $mod+m Output eDP-1 toggle
     # bindsym $mod+Shift+m output "HDMI-A-2" enable ; output "eDP-1" disable
     # bindsym $mod+Shift+A output "DP-8" enable
-    bindsym $mod+Shift+A output "DP-7" disable
-    bindsym $mod+Shift+A+S output "DP-7" enable
+    bindsym $mod+Shift+A output "DP-8" disable
+    bindsym $mod+Shift+A+S output "DP-8" enable
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -354,3 +368,5 @@ client.urgent	            #e06c75    #1e222a    #abb2bf    #e06c75    #e06c75
 
 #exec /home/sad/.config/eww/scripts/timer
 #exec /home/sad/.config/eww/scripts/weather-timer
+
+#
