@@ -40,13 +40,21 @@ set $menu rofi -show drun -icon-theme "Papirus-Dark"
 # output * bg /home/sad/Pictures/Wallpapers/wallp6.png fill
 
 # Set background for laptop screen
-output eDP-1 {
-    background /home/sad/Downloads/wallhaven-dpqed3_1920x1080.png fill
+# output eDP-1 {
+#     background /home/sad/Downloads/wallhaven-dpqed3_1920x1080.png fill
+#   }
+
+output 'Shenzhen KTC Technology Group DEXP DF24H1 ' {
+    background /home/sad/Pictures/Firefox/4.png fill
+  }
+
+output 'HP Inc. HP X27q 6CM12107B8' {
+    background /home/sad/Pictures/Wallpapers/Static/wallp.jpg fill
   }
 
 # Live wallpaper
-bindsym $mod+Home exec killall mpvpaper
-bindsym $mod+End exec /home/sad/.config/sway/wallpaper.sh
+# bindsym $mod+Home exec killall mpvpaper
+# bindsym $mod+End exec /home/sad/.config/sway/wallpaper.sh
 
 
 # notification daemon
@@ -56,9 +64,9 @@ bindsym $mod+End exec /home/sad/.config/sway/wallpaper.sh
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
-output DP-11 mode 2560x1440@143.999Hz
+output 'HP Inc. HP X27q 6CM12107B8' mode 2560x1440@143.999Hz
 # output DP-7 position 0,0 transform 90
-output DP-8 position 0,0
+output 'Shenzhen KTC Technology Group DEXP DF24H1 ' position 0,0
 
 # workspace 0 output DP-2
 #
@@ -126,8 +134,8 @@ input * {
     bindsym $mod+m Output eDP-1 toggle
     # bindsym $mod+Shift+m output "HDMI-A-2" enable ; output "eDP-1" disable
     # bindsym $mod+Shift+A output "DP-8" enable
-    bindsym $mod+Shift+A output "DP-8" disable
-    bindsym $mod+Shift+A+S output "DP-8" enable
+    bindsym $mod+Shift+A output 'Shenzhen KTC Technology Group DEXP DF24H1 ' disable
+    bindsym $mod+Shift+A+S output 'Shenzhen KTC Technology Group DEXP DF24H1 ' enable
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
